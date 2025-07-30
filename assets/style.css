@@ -46,7 +46,10 @@ body {
   font-size: 1vw;
   backface-visibility: hidden;
 }
-
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta{
+backface-visibility: hidden;
+}
 .cartao__conteudo__pergunta p {
   color: var(--text-color);
   font-weight: 500;
@@ -59,7 +62,9 @@ body {
 .cartao:hover .cartao__conteudo{
   transform:rotateY(180deg)
 }
-
+.cartao__conteudo__resposta{
+  transform: rotate(180deg);
+}
 footer {
   background-color: black;
   color: white;
